@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bd2190db-7b89-4855-9e65-c2865eb781c3" extendedConfigurationObject="35a6d3c8-3832-419f-81ef-fc7c113af6a4">
+  <producedTypes>
+    <objectType typeId="23450056-483f-489b-b0d5-8991b3fbf20e" valueTypeId="38551fe9-c83e-4135-a14e-611a9168d819"/>
+    <refType typeId="57420ee9-601d-41c8-9dff-7c5b1577cf56" valueTypeId="d46efa8b-5473-44e6-a388-79c1374013ec"/>
+    <selectionType typeId="bc861d43-6219-49e8-8430-aa446b93e01b" valueTypeId="e8ed4801-17a4-40c4-8d30-46569fef636f"/>
+    <listType typeId="9cdafd40-edb9-4448-8eb4-4e891b9ca1d4" valueTypeId="030ad633-9802-40e4-b952-4e2bb3a44e17"/>
+    <managerType typeId="436f009a-527e-4739-9c6f-a8512b94a2cd" valueTypeId="f194a186-995d-43a3-af66-d82c7563dd33"/>
+  </producedTypes>
+  <name>Организации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

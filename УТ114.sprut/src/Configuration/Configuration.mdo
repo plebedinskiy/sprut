@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f6990bff-fa91-4eb4-b0fa-4f8c6f3c1ef2">
+  <name>sprut</name>
+  <synonym>
+    <key>ru</key>
+    <value>Sprut</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <externalConnectionModule>Extended</externalConnectionModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="fd918a3e-89be-4576-a38e-ed939e63b77f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="18ea8dc7-29a3-43ce-a03d-17f9b1b85e25"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="11151a34-43b9-4828-a2dd-93176eee6a93"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a81955f2-79b7-4e78-a777-eb9c1c6427c9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1f283580-4209-4ff8-b670-dbcf49bf83fd"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="8071c326-ef65-47ba-8c94-fbd5a9755a69"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e0ef99e2-6c87-4bc8-9896-89bdd494a205"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>sprt_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.sprut_ОсновнаяРоль</defaultRoles>
+  <vendor>Лебединский Павел</vendor>
+  <version>1.0.1.2</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="514f0f83-99bc-4670-abab-6461e0a1387e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.sprut_Подсистема</subsystems>
+  <commonPictures>CommonPicture.sprut_ОбщаяКартинка</commonPictures>
+  <roles>Role.sprut_ОсновнаяРоль</roles>
+  <roles>Role.БазовыеПраваБСП</roles>
+  <commonModules>CommonModule.sprt_РаботаССервером</commonModules>
+  <catalogs>Catalog.sprt_НашиОрганизацииИзОтчетов</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.sprt_ПартнерыИзОтчетов</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <documents>Document.sprt_ПлатежноеПоручение</documents>
+  <documents>Document.ПоступлениеБезналичныхДенежныхСредств</documents>
+  <reports>Report.sprt_СопоставлениеПлатежей</reports>
+  <dataProcessors>DataProcessor.sprut_ГлавнаяКонсоль</dataProcessors>
+  <informationRegisters>InformationRegister.sprt_СопоставлениеКлиентов</informationRegisters>
+  <informationRegisters>InformationRegister.sprt_КонтрагентыДляМониторинга</informationRegisters>
+</mdclass:Configuration>

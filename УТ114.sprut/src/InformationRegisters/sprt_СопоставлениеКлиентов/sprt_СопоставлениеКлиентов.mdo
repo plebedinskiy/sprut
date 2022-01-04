@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eff6987b-dc34-470f-b6d8-3dadbba531ae">
+  <producedTypes>
+    <selectionType typeId="e7847e1c-05d9-4938-a367-2cd8839d9c85" valueTypeId="6fd3e69f-e851-4a07-a747-61ef5f04e879"/>
+    <listType typeId="199002ec-b74b-4f39-a806-4f773cfc1dfe" valueTypeId="683fc6bd-a706-4a6e-a254-af36f88ce5c7"/>
+    <managerType typeId="a454b28b-ad32-4681-b279-a8d7b744a410" valueTypeId="7557e76b-e3ec-402d-a7cf-26cf1f345d0e"/>
+    <recordSetType typeId="6adc53e8-9220-4ec8-8435-6240489446d7" valueTypeId="6997ff2e-cacb-4e6d-b46f-bdc2459bc603"/>
+    <recordKeyType typeId="b806e0f3-798f-4fb3-ac6b-ee524fab5626" valueTypeId="efeb298d-3e89-418d-b200-29eff0c6195c"/>
+    <recordType typeId="a658de15-e3ef-48e2-9524-c8d77ea71061" valueTypeId="660bb6e5-6660-4c98-a50b-61448074c6a3"/>
+    <recordManagerType typeId="6e41d2d3-d3b1-458f-bf27-dfca4f6c417b" valueTypeId="386faba5-3916-428e-a105-3491bb1944f3"/>
+  </producedTypes>
+  <name>sprt_СопоставлениеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4b15eca4-5837-46bd-b882-716deafae5bb">
+    <name>ПартнерИзБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер из базы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="83f1b1f2-b118-4271-84f2-226d3761e769">
+    <name>ПартнерИзОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер из отчета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.sprt_ПартнерыИзОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6773b918-8db3-4f6a-9423-55235fce8c90">
+    <name>КлючЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ записи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d241fa34-312f-44c1-9671-e9eddd1b1c4b">
+    <name>Активно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0d8b48d-7c05-42f2-a252-43993885a698">
+  <producedTypes>
+    <objectType typeId="b3c39834-afdb-433b-97b2-830262dd09ad" valueTypeId="4300ee26-e033-4b6a-86e0-2cc046c12979"/>
+    <managerType typeId="f2e3cd58-b913-4450-978c-5fcdfb4e9c0b" valueTypeId="47aa0fe6-2d96-45af-93f4-f9917c19b799"/>
+  </producedTypes>
+  <name>sprt_СопоставлениеПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет для сопоставления платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.sprt_СопоставлениеПлатежей.Form.ФормаОтчета</defaultForm>
+  <forms uuid="f0bedf7e-347d-4cce-a26d-d8c5777d9fc9">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8dce89cf-adc1-4f5a-8713-c15c74b61099">
+    <name>МакетСопоставленияДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет сопоставления документов</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

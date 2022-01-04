@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1371ed26-35f8-4a97-8a6e-0eb4b44b533e">
+  <producedTypes>
+    <objectType typeId="802b109f-a7dc-4beb-9838-dcaa5b7578d2" valueTypeId="d708ec06-e2b5-4ef0-ba78-ddaf17b3ad27"/>
+    <refType typeId="a48c86fe-fae5-470f-a703-e036b53470f5" valueTypeId="cb991898-7645-4ed7-a2cc-b0e373d866ae"/>
+    <selectionType typeId="5e13c339-f6f7-439b-a204-0644583f6245" valueTypeId="6dd2b509-ab6c-45aa-a3fe-2eac456c77f5"/>
+    <listType typeId="56e7c708-1c0b-4b75-b2b0-d34d1c05a835" valueTypeId="7bae8c7c-9370-4cfa-8f2f-6e93128d0323"/>
+    <managerType typeId="7e4a1dc4-4d42-4fcc-8503-3ffcb2926cfb" valueTypeId="f59c4397-a5ce-486d-8087-649316515aeb"/>
+  </producedTypes>
+  <name>sprt_НашиОрганизацииИзОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наши организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.sprt_НашиОрганизацииИзОтчетов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.sprt_НашиОрганизацииИзОтчетов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="80081264-7cac-4555-91c7-42fecc7bbf40">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

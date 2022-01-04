@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4160566-2718-4de8-8631-0a0330e7c8ed">
+  <producedTypes>
+    <selectionType typeId="913bb3c9-f276-4a50-86d2-3c4d2e3af847" valueTypeId="ef30262e-a910-4005-80cf-2639bffa66da"/>
+    <listType typeId="c51d32ec-5909-4b02-b4c0-c9f46feae5d6" valueTypeId="51689ef0-3a8d-4382-9b46-524c368fb459"/>
+    <managerType typeId="5f0dbed2-88eb-4940-a31b-d6f21d762008" valueTypeId="c19790ee-4f55-40b1-8074-3dcf264635b1"/>
+    <recordSetType typeId="fcdf7300-fca0-4a28-a7a8-63a271803651" valueTypeId="58c7cc8a-84bd-430a-b722-0025855e60f0"/>
+    <recordKeyType typeId="a15874d1-5d8d-49ae-83c6-b646c0cb4f68" valueTypeId="eb85d751-19d6-4b81-9fe0-125649a15d89"/>
+    <recordType typeId="06e8faa5-03d8-4a4a-8ae7-b493dc24aecb" valueTypeId="8018ef44-350c-4e80-ae71-b47fee8e7668"/>
+    <recordManagerType typeId="b0575008-69ab-42ac-a837-93f61ded6c68" valueTypeId="6bfe356c-442f-45ea-b752-482cbb134c24"/>
+  </producedTypes>
+  <name>sprt_КонтрагентыДляМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты для мониторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4f03682d-9e89-4e1c-8535-cc341f9624fd">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

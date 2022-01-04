@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6e775aa-3b3c-4ebc-bcb7-fd87391daf91">
+  <name>sprut_Подсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спрут</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.sprut_ОбщаяКартинка</picture>
+  </picture>
+  <content>DataProcessor.sprut_ГлавнаяКонсоль</content>
+  <content>Catalog.sprt_НашиОрганизацииИзОтчетов</content>
+  <content>Catalog.sprt_ПартнерыИзОтчетов</content>
+  <content>Document.sprt_ПлатежноеПоручение</content>
+  <content>InformationRegister.sprt_СопоставлениеКлиентов</content>
+  <content>InformationRegister.sprt_КонтрагентыДляМониторинга</content>
+  <content>Report.sprt_СопоставлениеПлатежей</content>
+</mdclass:Subsystem>

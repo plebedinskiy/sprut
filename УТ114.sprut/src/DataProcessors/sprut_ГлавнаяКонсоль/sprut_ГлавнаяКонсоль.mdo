@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f874f590-604a-4d80-b4a8-7b1860ad3a63">
+  <producedTypes>
+    <objectType typeId="9d4a1b33-6271-4f1b-9d33-18e0fd51fef7" valueTypeId="88b72952-78c2-4c50-bf4f-80971f3c5ffc"/>
+    <managerType typeId="f82ad00a-db36-4c15-8212-14c31aada856" valueTypeId="71873118-1a94-40ac-ba6d-ba050f8a1653"/>
+  </producedTypes>
+  <name>sprut_ГлавнаяКонсоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Главная консоль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.sprut_ГлавнаяКонсоль.Form.Форма</defaultForm>
+  <attributes uuid="5b20008e-10f3-4e8b-bb6b-792aae847d43">
+    <name>ПутьКПапке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к папке</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ff448432-06b9-464e-ae10-e8dccf4390fe">
+    <name>НастройкиДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки доступа</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b191cb90-1649-4bae-aacb-b4f248f1f40b">
+    <name>СтруктураКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура каталога</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="74434496-7472-475f-b590-d557e56e5371">
+    <name>РеестрОплат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр оплат</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="046acf9f-6f3a-4cb4-bfe8-cef84bc9bcc0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="450dc052-166b-40da-a7bb-6bc5b9da0c38">
+    <name>МакетСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет СКД</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="2a436ff0-cab2-4102-bd65-c78336cc3981">
+    <name>МакетСводногоОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет сводного отчета</value>
+    </synonym>
+  </templates>
+  <templates uuid="0621da03-fd6d-4433-a6f5-a95d3cf6e539">
+    <name>МакетСпискаДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет списка документов</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

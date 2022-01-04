@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebf0cf6e-b22c-4514-9a9f-f09e0145f0d2">
+  <producedTypes>
+    <objectType typeId="e539daac-cb21-443c-a8b2-ec9a0d0db50b" valueTypeId="fbfdabc4-ce12-473a-bf23-c849eb4c464a"/>
+    <refType typeId="6776e755-eaa0-47c7-ab1e-660200b484a4" valueTypeId="2a3abf3e-22f3-4336-8d3c-1d58ffa3f89a"/>
+    <selectionType typeId="0e99d36a-204b-4575-986b-a3c9038c34b2" valueTypeId="0a35b5d5-34dd-4ef4-a3a5-77af4bdf26e7"/>
+    <listType typeId="a3558bad-fc19-4e59-8fd6-9bd70e4749cf" valueTypeId="2a9bea9b-4ef6-428a-aff9-c419d2d1829a"/>
+    <managerType typeId="634c8149-f62a-401c-996d-f9f290112973" valueTypeId="ff0b4a91-9b14-4b4a-87cd-3b8b7549b0e9"/>
+  </producedTypes>
+  <name>sprt_ПартнерыИзОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партнеры из отчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.sprt_ПартнерыИзОтчетов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.sprt_ПартнерыИзОтчетов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
